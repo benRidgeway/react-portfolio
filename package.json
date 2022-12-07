@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://cmon-theres-gotta-be-a-name-available.github.io/react-portfolio",
+  "homepage": "https://cmon-theres-gotta-be-a-name-available.github.io/react-portfolio/",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
