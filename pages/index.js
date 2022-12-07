@@ -36,7 +36,7 @@ export default function Home() {
             <p className='text-md py-5 leading-8 text-gray-800'>
               I am an upcoming developer looking for a place to grow my knowledge and make a name for myself. I live in Harrisburg, NC. with my spouse and new addition, Elena. 
               I can't wait to get into the field and get to work. Being fresh out of the FullStack certication program, I know I have a lot to learn, and would feel more comfortable
-              working closely with a mentor to guide me as a junior developer or even an intern. Click the 'Download Resume' button in the top left to see a full breakdown of my work history, or click the github icon and get to know me a little better. 
+              working closely with a mentor to guide me as a junior developer or even an intern. Click the github icon and get to see some of my previous projects. 
             </p>
           </div>
           <div>
