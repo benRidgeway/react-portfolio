@@ -1,3 +1,4 @@
+// eslint react/no-unescaped-entities 
 import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import { AiFillGithub } from 'react-icons/ai';
