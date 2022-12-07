@@ -7,6 +7,9 @@ import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
 import screencapture from "../public/screencapture.gif";
+import resume1 from "../public/resume1.png";
+import resume2 from "../public/resume2.png";
+
 
 export default function Home() {
   return (
@@ -25,10 +28,6 @@ export default function Home() {
               <li>
                 <BsFillMoonStarsFill className='cursor-pointer text-2xl'/>
               </li>
-              <li>
-                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'
-                 href='#'>Resume</a>
-              </li>
             </ul>
           </nav>
           <div className='text-center p-10'>
@@ -36,7 +35,8 @@ export default function Home() {
             <h3 className='text-2xl py-2'>Certified FullStack Web-Developer</h3>
             <p className='text-md py-5 leading-8 text-gray-800'>
               I am an upcoming developer looking for a place to grow my knowledge and make a name for myself. I live in Harrisburg, NC. with my spouse and new addition, Elena. 
-              I can't wait to get into the field and get to work. Ive never felt more at home than when I'm sitting in front of a computer. Click the 'Resume' button in the top left to see a full breakdown of my work history, or click the github icon and get to know me a little better. 
+              I can't wait to get into the field and get to work. Being fresh out of the FullStack certication program, I know I have a lot to learn, and would feel more comfortable
+              working closely with a mentor to guide me as a junior developer or even an intern. Click the 'Download Resume' button in the top left to see a full breakdown of my work history, or click the github icon and get to know me a little better. 
             </p>
           </div>
           <div>
@@ -74,6 +74,13 @@ export default function Home() {
                 I like to keep my code clean with extensions like "Prettier" to make it as readable as possible for others collaborate.
               </p>
             </div>
+          </div>
+          <div>
+            <div>
+              <h3 className='text-3xl py-1 mb-20'>This is my Resume so that you wont have to risk anything with a unsecure download</h3>
+            </div>
+            <Image src={resume1}/>
+            <Image src={resume2}/>
           </div>
         </section>
         <section>
