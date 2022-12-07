@@ -43,7 +43,7 @@ export default function Home() {
             <a className='text-5xl flex justify-center py-3' href="https://github.com/cmon-theres-gotta-be-a-name-available"><AiFillGithub/></a>
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
-            <Image src={deved} layout="fill" objectFit='cover'/>
+            <Image alt='[]' src={deved} layout="fill" objectFit='cover'/>
           </div>
         </section>
         <section>
@@ -59,7 +59,7 @@ export default function Home() {
           </div>
           <div>
             <div className='shadow-lg p-10 rounded-xl my-10'>
-              <Image src={design} width={100} height={100} />
+              <Image alt='[]'  src={design} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
               <p className='py-2'>
                 I am leaning towards front end development, so a large part of that is knowing how to move things around on the page to make them look presentable. I am constantly looking at new CSS templates to make designing simpler.
@@ -68,7 +68,7 @@ export default function Home() {
           </div>
           <div>
             <div className='shadow-lg p-10 rounded-xl my-10'>
-              <Image src={code} width={100} height={100} />
+              <Image alt='[]'  src={code} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>Elegant Coding</h3>
               <p className='py-2'>
                 I like to keep my code clean with extensions like "Prettier" to make it as readable as possible for others collaborate.
@@ -79,8 +79,8 @@ export default function Home() {
             <div>
               <h3 className='text-3xl py-1 mb-20'>This is my Resume so that you wont have to risk anything with a unsecure download</h3>
             </div>
-            <Image src={resume1}/>
-            <Image src={resume2}/>
+            <Image alt='[]'  src={resume1}/>
+            <Image alt='[]'  src={resume2}/>
           </div>
         </section>
         <section>
@@ -92,7 +92,7 @@ export default function Home() {
           </div>
           <div>
             <div className='shadow-lg p-10 rounded-xl my-10'>
-              <Image src={screencapture} width={600} height={600} />
+              <Image alt='[]'  src={screencapture} width={600} height={600} />
               <a className='text-lg font-medium pt-8 pb-2' href="https://nrenner0211.github.io/dad_app/">Dad App</a>
               <p className='py-2'>
                 In this project my team and I used to HTML, CSS, and Javascript to make an app. We used multiple APIs to create a multitool of a website for the stereotypical suburban father.
